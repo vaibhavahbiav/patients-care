@@ -46,7 +46,7 @@ export default function PatientsPage() {
             type="text"
             value={search}
             onChange={e => setSearch(e.target.value)}
-            className="border rounded-xl px-3 py-2 w-full md:w-72 outline-none shadow-md shadow-emerald-700"
+            className="border rounded-xl px-3 py-2 w-full md:w-72 outline-none shadow-md shadow-emerald-700 border-l-4 border-emerald-800"
             placeholder="Search by patient name..."
           />
         </div>

@@ -9,7 +9,7 @@ function App() {
     <div className="bg-gray-200 h-screen overflow-y-auto pb-4">
       <BrowserRouter>
       <Navbar />
-      <div className="max-w-6xl mx-1 md:mx-auto p-5 md:p-10 mt-10 bg-emerald-600 rounded-xl">
+      <div className="max-w-6xl mx-1 md:mx-auto p-5 md:p-10 mt-10 bg-emerald-600 rounded-xl border-l-4 md:border-l-8 border-emerald-800">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/patients" element={<PatientsPage />} />
