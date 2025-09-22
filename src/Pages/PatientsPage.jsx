@@ -52,7 +52,7 @@ export default function PatientsPage() {
         </div>
         <AddPatientForm onAdd={handleAddPatient} />
       </div>
-      {loading && <div className="text-center  md:text-3xl text-emerald-950 my-12 animate-pulse">Loading...</div>}
+      {loading && <div className="text-center  md:text-3xl text-white my-12 animate-pulse">Loading...</div>}
       {error && <div className="text-center text-red-600 my-12">{error}</div>}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
         {filtered.map((user, idx) => (
