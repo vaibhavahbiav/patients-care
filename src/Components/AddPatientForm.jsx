@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 export default function AddPatientForm({ onAdd }) {
     const [show, setShow] = useState(false);
     const [values, setValues] = useState({

@@ -1,4 +1,3 @@
-import React from "react";
 export default function PatientCard({ user, onView }) {
   return (
     <div className="bg-emerald-50 rounded-xl shadow-lg shadow-emerald-700 py-8 flex flex-col items-center justify-center text-center space-y-5 tracking-wide font-thin border-l-4 md:border-l-8 border-emerald-800 hover:border-l-0 transition-all duration-75">

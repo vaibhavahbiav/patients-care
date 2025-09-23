@@ -1,4 +1,3 @@
-import React from "react";
 export default function LandingPage() {
   return (
     <section className="text-center my-16 tracking-wide">
