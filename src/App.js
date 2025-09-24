@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <div className="max-w-6xl mx-1 md:mx-auto p-5 md:p-10 mt-10 bg-emerald-600 rounded-xl border-l-4 md:border-l-8 border-emerald-800">
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/patients-care" element={<LandingPage />} />
           <Route path="/patients" element={<PatientsPage />} />
           <Route path="/about" element={<About />} />
         </Routes>
